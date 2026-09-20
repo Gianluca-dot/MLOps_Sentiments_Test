@@ -1,0 +1,8 @@
+model:
+  name: "cardiffnlp/twitter-roberta-base-sentiment-latest"
+
+training:
+  epochs: 1
+  batch_size: 16
+  learning_rate: 2e-5
+  min_f1_improvement: 0.005
